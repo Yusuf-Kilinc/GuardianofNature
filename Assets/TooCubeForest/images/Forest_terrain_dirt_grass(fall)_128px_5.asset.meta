@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 529a0b7c136795547bcfa98af069a0bd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 117493
+  packageName: Too Cube Forest, the 2D platformer game tile set.
+  packageVersion: 1.0
+  assetPath: Assets/TooCubeForest/images/Forest_terrain_dirt_grass(fall)_128px_5.asset
+  uploadId: 248450

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1ee0c08c25d448445bf2f2308238727f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 117493
+  packageName: Too Cube Forest, the 2D platformer game tile set.
+  packageVersion: 1.0
+  assetPath: Assets/TooCubeForest/images/Forest_deco_signs_5.asset
+  uploadId: 248450
