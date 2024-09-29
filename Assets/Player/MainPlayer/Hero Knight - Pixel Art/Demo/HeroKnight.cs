@@ -128,14 +128,14 @@ public class HeroKnight : MonoBehaviour
         //}
 
         // Block
-        else if (Input.GetMouseButtonDown(1) && !m_rolling)
-        {
-            m_animator.SetTrigger("Block");
-            m_animator.SetBool("IdleBlock", true);
-        }
+        //else if (Input.GetMouseButtonDown(1) && !m_rolling)
+        //{
+        //    m_animator.SetTrigger("Block");
+        //    m_animator.SetBool("IdleBlock", true);
+        //}
 
-        else if (Input.GetMouseButtonUp(1))
-            m_animator.SetBool("IdleBlock", false);
+        //else if (Input.GetMouseButtonUp(1))
+        //    m_animator.SetBool("IdleBlock", false);
 
         // Roll
         else if (Input.GetKeyDown("left shift") && !m_rolling && !m_isWallSliding)

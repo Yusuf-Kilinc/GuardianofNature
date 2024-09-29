@@ -15,7 +15,7 @@ public class PlayerTaken : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        pos = new Vector3(Player.transform.position.x, Player.transform.position.y, -10);
+        pos = new Vector3(Player.transform.position.x, Player.transform.position.y + 2f, -10);
         pos1 = new Vector3(transform.position.x, transform.position.y, -10);
 
 
