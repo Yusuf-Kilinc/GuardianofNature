@@ -43,6 +43,7 @@ public class HeroKnight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         // Increase timer that controls attack combo
         m_timeSinceAttack += Time.deltaTime;
 

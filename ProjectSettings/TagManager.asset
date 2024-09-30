@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - ScaneFinish
+  - Death
+  - Engel
   layers:
   - Default
   - TransparentFX
