@@ -21,6 +21,6 @@ public class PlayerTaken : MonoBehaviour
 
        // this.transform.position = pos;
 
-        this.transform.position = Vector3.Lerp(pos1, pos, 1 * Time.deltaTime);
+        this.transform.position = Vector3.Lerp(pos1, pos, 2 * Time.deltaTime);
     }
 }
