@@ -1,12 +1,12 @@
 # ninja log v5
-217	3725	7490937291409389	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	a55db16ce6075bcc
-3726	4814	7490937305591016	D:/Unity/Projeler/GuardianofNature/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4j21g103/obj/arm64-v8a/libswappywrapper.so	2cca6efbe82fb35
-82	6172	7490937319261879	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	66c1997504384459
-212	6585	7490937323263556	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	57a56f306e7c2aef
-14	6590	7490937323389414	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	9d3bbd4c6a2102a3
-44	6594	7490937323359287	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	2d0523948cbb811d
-207	6652	7490937324078038	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	b9e8b6c2866561e0
-8	6711	7490937324711412	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	e8c435f8cc2daee1
-157	6781	7490937325418041	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	b8c7b6f80f47879
-31	6902	7490937326603314	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	acff3649c6d0bc33
-6902	7190	7490937329515583	D:/Unity/Projeler/GuardianofNature/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4j21g103/obj/arm64-v8a/libgame.so	d63451bd0de9ead0
+38	1186	7494895294852579	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	a55db16ce6075bcc
+1187	1566	7494895298202845	D:/Unity/Projeler/GuardianofNature/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4j21g103/obj/arm64-v8a/libswappywrapper.so	2cca6efbe82fb35
+22	2552	7494895308014362	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	66c1997504384459
+7	2555	7494895308175904	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	9d3bbd4c6a2102a3
+26	2556	7494895308296390	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	57a56f306e7c2aef
+32	2636	7494895309305333	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	b9e8b6c2866561e0
+4	2718	7494895310148802	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	e8c435f8cc2daee1
+14	2747	7494895310098560	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	2d0523948cbb811d
+11	2810	7494895311043579	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	b8c7b6f80f47879
+1	2895	7494895311904379	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	acff3649c6d0bc33
+2895	3060	7494895313552604	D:/Unity/Projeler/GuardianofNature/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4j21g103/obj/arm64-v8a/libgame.so	d63451bd0de9ead0
