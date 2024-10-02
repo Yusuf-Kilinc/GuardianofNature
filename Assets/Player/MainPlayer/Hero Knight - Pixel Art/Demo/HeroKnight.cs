@@ -27,7 +27,7 @@ public class HeroKnight : MonoBehaviour
     private float m_rollCurrentTime;
 
     public FixedJoystick Fj;
-
+    public HealthSystem HealthSystem;
     // Use this for initialization
     void Start()
     {
@@ -43,6 +43,12 @@ public class HeroKnight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        if (HealthSystem.Health == HealthSystem.minHealth)
+        {
+            m_animator.SetTrigger("Death");
+            m_animator.SetBool("noBlood", m_noBlood);
+        }
 
         // Increase timer that controls attack combo
         m_timeSinceAttack += Time.deltaTime;

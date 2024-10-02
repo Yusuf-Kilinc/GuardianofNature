@@ -18,4 +18,14 @@ public class SceneController : MonoBehaviour
         //    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         //}
     }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
 }
