@@ -9,10 +9,6 @@ public class HealthSystem : MonoBehaviour
     public Slider HealthSlider;
     Timer timer;
     public GameObject DeathScene;
-    public PhysicsMaterial2D pm2D;
-    public float bounceForce = 5f; // Geri sekme kuvveti
-    public Rigidbody2D rb;
-
     void Update()
     {
         HealthSlider.value = Health;
@@ -40,19 +36,11 @@ public class HealthSystem : MonoBehaviour
     {
         if (collision.gameObject.tag == "Engel")
         {
-            Health -= 50 * Time.deltaTime;
+            Health -= 5 /** Time.deltaTime*/;
         }
         if (collision.gameObject.tag == "Death")
         {
             Health = 0;
-        }
-    }
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Engel"))
-        {
-            Vector2 bounceDirection = -collision.contacts[0].normal;
-            rb.AddForce(bounceDirection * bounceForce, ForceMode2D.Impulse);
         }
     }
 }
