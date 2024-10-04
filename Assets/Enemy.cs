@@ -3,39 +3,26 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public Animator anim;
-    public int MaxHealth = 100;
-    public int currentHealth;
-    public EnemyAi eai;
-    public void Start()
+    public int maxHealth = 100;
+    int currentHealth;
+    void Start()
     {
-        currentHealth = MaxHealth;
+        currentHealth = maxHealth;
     }
-
-    public void Update()
-    {
-        if (eai.Walk == true)
-        {
-            anim.SetInteger("AnimState", 2);
-        }   
-    }
-
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
         anim.SetTrigger("Hurt");
-
         if (currentHealth <= 0)
         {
             Die();
         }
-    }
-
-    public void Die()
-    {
-        anim.SetInteger("AnimState", 0);
-        anim.SetTrigger("Death");
-        this.enabled = false;
-        GetComponent<Collider2D>().enabled = false;
-        Destroy(this.gameObject, 2f);
+        void Die()
+        {
+            anim.SetBool("IsDead", true);
+            this.enabled = false;
+            GetComponent<Collider2D>().enabled = false;
+            Destroy(gameObject, 2f);
+        }
     }
 }
