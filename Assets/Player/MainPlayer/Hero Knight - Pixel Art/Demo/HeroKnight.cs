@@ -28,11 +28,13 @@ public class HeroKnight : MonoBehaviour
 
     public FixedJoystick Fj;
     public HealthSystem HealthSystem;
+    public PlayerCombat PCombat;
     // Use this for initialization
     void Start()
     {
         m_animator = GetComponent<Animator>();
         m_body2d = GetComponent<Rigidbody2D>();
+        PCombat = GetComponent<PlayerCombat>();
         m_groundSensor = transform.Find("GroundSensor").GetComponent<Sensor_HeroKnight>();
         m_wallSensorR1 = transform.Find("WallSensor_R1").GetComponent<Sensor_HeroKnight>();
         m_wallSensorR2 = transform.Find("WallSensor_R2").GetComponent<Sensor_HeroKnight>();
@@ -237,6 +239,7 @@ public class HeroKnight : MonoBehaviour
             m_animator.SetTrigger("Attack" + m_currentAttack);
             // Reset timer
             m_timeSinceAttack = 0.0f;
+            PCombat.DamageEnemy();
         }
     }
 }
