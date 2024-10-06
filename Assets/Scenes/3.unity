@@ -16863,7 +16863,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7305900649341273876}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -16956,6 +16956,7 @@ GameObject:
   - component: {fileID: 2469080363288897767}
   - component: {fileID: 8864911717753175520}
   - component: {fileID: 8687397812952789549}
+  - component: {fileID: 8864911717753175521}
   m_Layer: 7
   m_Name: HeroKnight
   m_TagString: Player
@@ -17089,6 +17090,43 @@ MonoBehaviour:
   MaxHealt: 1000
   HealthSlider: {fileID: 1055892794}
   DeathScene: {fileID: 778287562}
+--- !u!70 &8864911717753175521
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7305900649341273876}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.046906233, y: 0.7057262}
+  m_Size: {x: 0.851861, y: 1.2962683}
+  m_Direction: 0
 --- !u!4 &8963675188792944255
 Transform:
   m_ObjectHideFlags: 0
